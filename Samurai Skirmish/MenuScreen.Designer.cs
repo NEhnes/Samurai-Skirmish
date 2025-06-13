@@ -50,6 +50,7 @@
             this.playButton.TabIndex = 4;
             this.playButton.Text = "Play";
             this.playButton.UseVisualStyleBackColor = false;
+            this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
             // exitButton
             // 
@@ -68,6 +69,7 @@
             this.exitButton.TabIndex = 7;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // howToPlay
             // 
@@ -86,6 +88,7 @@
             this.howToPlay.TabIndex = 8;
             this.howToPlay.Text = "Demo";
             this.howToPlay.UseVisualStyleBackColor = false;
+            this.howToPlay.Click += new System.EventHandler(this.howToPlay_Click);
             // 
             // MenuScreen
             // 

@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace Samurai_Skirmish
 {
-    public partial class WinScreen : UserControl
+    public partial class HowToPlayScreen : UserControl
     {
-        public WinScreen()
+        public HowToPlayScreen()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void returnButton_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form1.ChangeScreen(this, new MapSelector());
+            Form1.ChangeScreen(this, new MenuScreen());
         }
     }
 }

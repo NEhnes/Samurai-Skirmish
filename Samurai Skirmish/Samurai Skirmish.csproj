@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Character.cs" />
+    <Compile Include="CharacterSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CharacterSelection.Designer.cs">
+      <DependentUpon>CharacterSelection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,12 @@
     </Compile>
     <Compile Include="GameScreen.Designer.cs">
       <DependentUpon>GameScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HowToPlayScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HowToPlayScreen.Designer.cs">
+      <DependentUpon>HowToPlayScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="MapSelector.cs">
       <SubType>UserControl</SubType>
@@ -81,11 +93,17 @@
     <Compile Include="WinScreen.Designer.cs">
       <DependentUpon>WinScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CharacterSelection.resx">
+      <DependentUpon>CharacterSelection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GameScreen.resx">
       <DependentUpon>GameScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HowToPlayScreen.resx">
+      <DependentUpon>HowToPlayScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MapSelector.resx">
       <DependentUpon>MapSelector.cs</DependentUpon>

@@ -16,5 +16,20 @@ namespace Samurai_Skirmish
         {
             InitializeComponent();
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void playButton_Click(object sender, EventArgs e)
+        {
+            Form1.ChangeScreen(this, new GameScreen());
+        }
+
+        private void howToPlay_Click(object sender, EventArgs e)
+        {
+            Form1.ChangeScreen(this, new HowToPlayScreen());
+        }
     }
 }
