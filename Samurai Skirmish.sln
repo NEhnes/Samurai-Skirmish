@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samurai Skirmish", "Samurai Skirmish\Samurai Skirmish.csproj", "{40AD7A6B-959B-4810-BB48-62E2AC829949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40AD7A6B-959B-4810-BB48-62E2AC829949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AD7A6B-959B-4810-BB48-62E2AC829949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AD7A6B-959B-4810-BB48-62E2AC829949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AD7A6B-959B-4810-BB48-62E2AC829949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E695EDB9-597A-4CCD-BEB2-66833DEAE11F}
+	EndGlobalSection
+EndGlobal
