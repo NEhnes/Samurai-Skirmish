@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Samurai_Skirmish
 {
-    public partial class GameScreen : UserControl
+    public partial class WinScreen : UserControl
     {
-        public GameScreen()
+        public WinScreen()
         {
             InitializeComponent();
         }
